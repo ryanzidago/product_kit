@@ -42,7 +42,7 @@ Be especially careful with:
 
 PII leaked into logs is especially costly because it is hard to retract everywhere it was copied.
 
-See [observability.md](observability.md) for general signal guidance.
+See [observability.md](../delivery/observability.md) for general signal guidance.
 
 ## Retention Must Be Intentional
 
@@ -114,7 +114,7 @@ This guide covers privacy and retention defaults.
 Use adjacent guides for related concerns:
 
 - [security-and-authorization.md](security-and-authorization.md) for trust boundaries and sensitive action protection
-- [observability.md](observability.md) for diagnostics without leaking sensitive data
+- [observability.md](../delivery/observability.md) for diagnostics without leaking sensitive data
 - [data-model-and-schema-design.md](data-model-and-schema-design.md) for minimizing unnecessary duplication of sensitive fields
 
 ## Review Questions

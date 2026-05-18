@@ -108,7 +108,7 @@ Each layer should translate failures into the vocabulary it owns.
 - translate domain errors into the right Oban outcome
 - do not retry hopeless work because the domain error was left ambiguous
 
-This follows the same boundary rule as the [architecture guide](../architecture.md): each layer should own the failure language that matches its responsibility.
+This follows the same boundary rule as the [architecture guide](../architecture/architecture.md): each layer should own the failure language that matches its responsibility.
 
 ## Give The Caller Enough To Act
 

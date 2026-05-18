@@ -163,8 +163,8 @@ Prefer passing these in explicitly:
 
 This is especially important for computation-heavy logic because "today", local business dates, reference data, and effective policy versions often change the result.
 
-See [elixir/time-handling.md](elixir/time-handling.md) for time and timezone rules.
-See [elixir/function-purity.md](elixir/function-purity.md) for the broader boundary between pure logic and effectful workflow code.
+See [elixir/time-handling.md](../elixir/time-handling.md) for time and timezone rules.
+See [elixir/function-purity.md](../elixir/function-purity.md) for the broader boundary between pure logic and effectful workflow code.
 
 ## Use Step-Oriented Computation Structs
 
@@ -443,7 +443,7 @@ Bulk-first design usually gives you:
 - simpler scheduling for jobs and backfills
 - more predictable performance
 
-When the final persistence shape is a true bulk write, follow [elixir/ecto/bulk-operations.md](elixir/ecto/bulk-operations.md).
+When the final persistence shape is a true bulk write, follow [elixir/ecto/bulk-operations.md](../elixir/ecto/bulk-operations.md).
 
 ## Persist At The Edge
 
@@ -618,7 +618,7 @@ end
 
 This is one of the main advantages of the pattern. The failure is not just "the computation failed". The test can prove exactly where it failed and what had already been computed.
 
-See [testing/abstract-vs-real-world.md](testing/abstract-vs-real-world.md) for the abstract-versus-realistic test split.
+See [testing/abstract-vs-real-world.md](../testing/abstract-vs-real-world.md) for the abstract-versus-realistic test split.
 
 ## Review Questions
 

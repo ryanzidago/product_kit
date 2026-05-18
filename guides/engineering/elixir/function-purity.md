@@ -167,7 +167,7 @@ If a branch is important enough to observe, return enough structured information
 
 That keeps the helper deterministic and avoids scattering instrumentation through low-level functions.
 
-See [observability.md](observability.md) for the broader logging and telemetry guidance.
+See [observability.md](../delivery/observability.md) for the broader logging and telemetry guidance.
 
 ## Testing Consequences
 

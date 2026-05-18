@@ -63,7 +63,7 @@ Prefer structure that prevents bad states where practical:
 
 Do not rely on convention alone when the database can enforce the rule.
 
-See [constraints-and-invariants.md](elixir/ecto/constraints-and-invariants.md) for Ecto-specific enforcement guidance.
+See [constraints-and-invariants.md](../elixir/ecto/constraints-and-invariants.md) for Ecto-specific enforcement guidance.
 
 ## Nullable Should Be Intentional
 
@@ -228,9 +228,9 @@ This guide describes what the schema should represent.
 
 Use the narrower guides for implementation detail:
 
-- [elixir/ecto/constraints-and-invariants.md](elixir/ecto/constraints-and-invariants.md) for database-backed truth
-- [elixir/ecto/changesets.md](elixir/ecto/changesets.md) for validation boundaries
-- [elixir/ecto/transactions.md](elixir/ecto/transactions.md) for coordinated writes and locks
+- [elixir/ecto/constraints-and-invariants.md](../elixir/ecto/constraints-and-invariants.md) for database-backed truth
+- [elixir/ecto/changesets.md](../elixir/ecto/changesets.md) for validation boundaries
+- [elixir/ecto/transactions.md](../elixir/ecto/transactions.md) for coordinated writes and locks
 - [architecture.md](architecture.md) for separating persistence from business logic and presentation
 
 ## Review Questions

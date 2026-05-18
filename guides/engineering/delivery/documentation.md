@@ -301,7 +301,7 @@ That higher-level context still belongs in `@moduledoc` when the component is sh
 
 Do not use `attr` to document a LiveView's own `render/1` assigns or non-component helpers. That is covered by the component attrs guide and the LiveView lifecycle itself.
 
-See [elixir/phoenix/components/attrs.md](elixir/phoenix/components/attrs.md) for the detailed `attr` rules.
+See [elixir/phoenix/components/attrs.md](../elixir/phoenix/components/attrs.md) for the detailed `attr` rules.
 
 ## Review Questions
 

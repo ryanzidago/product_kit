@@ -42,7 +42,7 @@ Prefer this layering:
 
 If a permission check only exists in the template, controller, or LiveView, it is incomplete.
 
-See [elixir/phoenix/liveviews/authorization.md](elixir/phoenix/liveviews/authorization.md) for LiveView-specific guidance.
+See [elixir/phoenix/liveviews/authorization.md](../elixir/phoenix/liveviews/authorization.md) for LiveView-specific guidance.
 
 ## Scope Data By Ownership And Tenant
 
@@ -118,9 +118,9 @@ This guide covers the shared security boundary.
 
 Use narrower guides for implementation detail:
 
-- [elixir/phoenix/liveviews/authorization.md](elixir/phoenix/liveviews/authorization.md) for LiveView-specific enforcement
-- [elixir/error-handling.md](elixir/error-handling.md) for shaping forbidden and not-found outcomes safely
-- [observability.md](observability.md) for making sensitive failures diagnosable without leaking secrets
+- [elixir/phoenix/liveviews/authorization.md](../elixir/phoenix/liveviews/authorization.md) for LiveView-specific enforcement
+- [elixir/error-handling.md](../elixir/error-handling.md) for shaping forbidden and not-found outcomes safely
+- [observability.md](../delivery/observability.md) for making sensitive failures diagnosable without leaking secrets
 
 ## Review Questions
 

@@ -273,7 +273,7 @@ That is usually enough to make the workflow diagnosable without instrumenting ev
 
 ## Relationship To The Generic Guide
 
-Use the top-level [observability.md](../observability.md) guide for the policy:
+Use the delivery [observability.md](../delivery/observability.md) guide for the policy:
 
 - what signals matter
 - how to think about usage, failure, latency, and correlation

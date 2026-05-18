@@ -11,7 +11,7 @@ Each guide is self-contained on purpose:
 ## Guide Index
 
 - [boundaries.md](boundaries.md) - Choose function components, LiveComponents, and LiveViews intentionally.
-- [api-design.md](api-design.md) - Design component APIs around meaning, not implementation details.
+- [api-design.md](../../../architecture/api-design.md) - Design component APIs around meaning, not implementation details.
 - [attrs.md](attrs.md) - Use `attr` for real component contracts, including page-local components inside LiveViews.
 - [../heex.md](../heex.md) - Prefer HEEx `:if` and `:for` directives when they keep control flow local to the markup.
 - [composition.md](composition.md) - Compose from existing primitives before creating new ones.
