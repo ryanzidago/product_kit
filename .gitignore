@@ -1,0 +1,8 @@
+# Local mise overrides.
+/mise.local.toml
+/mise.*.local.toml
+
+# Local Codex state.
+/.codex-home/
+
+.DS_Store
