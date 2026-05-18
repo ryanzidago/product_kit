@@ -155,7 +155,7 @@ Rate each guard:
 
 The retrospective goes in the feature's artefacts folder.
 
-1. Check whether a feature folder already exists in `artefacts/` for this work
+1. Check whether a feature folder already exists in `.artefacts/` for this work
 2. If yes, save there as `.artefacts/{date-slug}/YYYY-MM-DD-retrospective.md`
 3. If no, create a new feature folder based on the PR branch name
 
