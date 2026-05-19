@@ -68,19 +68,7 @@ The existing plans converge on a compact header before the task list. Use the li
 
 Use sections like `## Data Model Overview` only when the implementer needs a concrete mental model before touching files.
 
-### 2. `## File Structure`
-
-Group work by type and action:
-
-- `Create`
-- `Update`
-- `Replace`
-- `Delete`
-- `Keep`
-
-This section should tell the reader where the plan will land before they read the tasks.
-
-### 3. Task sections
+### 2. Task sections
 
 Use one `## Task N: ...` section per coherent slice. Good task boundaries are:
 
@@ -109,11 +97,11 @@ end
 
 That is enough. Do not include assertions, setup, fixtures, or any other test body details in the plan. The plan should identify the contract or behavior being exercised, not pre-write the test.
 
-### 4. Final verification
+### 3. Final verification
 
 End with a `## Final Verification` section that runs the highest-signal checks for the repo or slice.
 
-### 5. Completion criteria
+### 4. Completion criteria
 
 End with `## Completion Criteria` describing what must be true when the plan is done.
 
@@ -150,13 +138,6 @@ End with `## Completion Criteria` describing what must be true when the plan is 
 **Architecture:** ...
 **Tech Stack:** ...
 **Design plan:** `.artefacts/.../<topic>-design-plan.md`
-
-## File Structure
-
-**Area:**
-
-- Create: `...`
-- Update: `...`
 
 ## Task 1: <First vertical slice>
 
